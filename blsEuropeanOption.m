@@ -172,8 +172,8 @@ classdef (Sealed = true) blsEuropeanOption < handle
             hqr = surf(obj.spotPrices, obj.timeToExpiry, z, gradient(z, diff(obj.spotPrices(1, 1:2)), diff(obj.timeToExpiry(1:2))));
             view(-125, 30);
             
-            xlabel('Spot Price');
-            ylabel('Time to Expiry');
+            xlabel('Spot price');
+            ylabel('Time to expiration');
             zlabel(label);
 
             set(hqr, 'FaceAlpha', .6)
