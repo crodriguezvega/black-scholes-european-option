@@ -18,35 +18,35 @@ Instantiate the Matlab class by passing as arguments:
 For example:
 
 ```matlab
-callOption = blsEuropeanOption(100, 130, 0.05, 1, 0.2, 'Call')
+callOption = blsEuropeanOption(100, 130, 0.05, 1, 0.2, 'Call');
 ```
 
 Now it is possible to execute a method on the object `callOption` to generate the graph of the option price:
 
 ```matlab
-callOption.showPrice()
+callOption.showPrice();
 ```
-![Alt text](/price.png "Visualisation using d3")
+![Alt text](/price.png "Price graph")
 
 Similarly, we can execute methods to display the graph of the greeks:
 
 ```matlab
-callOption.showDelta()
+callOption.showDelta();
 ```
-![Alt text](/delta.png "Visualisation using d3")
+![Alt text](/delta.png "Delta graph")
 ```matlab
-callOption.showGamma()
+callOption.showGamma();
 ```
-![Alt text](/gamma.png "Visualisation using d3")
+![Alt text](/gamma.png "Gamma graph")
 ```matlab
-callOption.showVega()
+callOption.showVega();
 ```
-![Alt text](/vega.png "Visualisation using d3")
+![Alt text](/vega.png "Vega graph")
 ```matlab
-callOption.showTheta()
+callOption.showTheta();
 ```
-![Alt text](/theta.png "Visualisation using d3")
+![Alt text](/theta.png "Theta graph")
 ```matlab
-callOption.showRho()
+callOption.showRho();
 ```
-![Alt text](/rho.png "Visualisation using d3")
+![Alt text](/rho.png "Rho graph")
