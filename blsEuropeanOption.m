@@ -176,10 +176,10 @@ classdef (Sealed = true) blsEuropeanOption < handle
             ylabel('Time to expiration');
             zlabel(label);
 
-            set(hqr, 'FaceAlpha', .6)
-            set(hqr, 'EdgeAlpha', .2)
-            set(hqr, 'FaceLighting', 'phong')
-            set(hqr, 'FaceColor', 'interp')
+            set(hqr, 'FaceAlpha', .6);
+            set(hqr, 'EdgeAlpha', .2);
+            set(hqr, 'FaceLighting', 'phong');
+            set(hqr, 'FaceColor', 'interp');
         end
         function x = normpdfPrima(obj, d)
             x = (exp((-d.^2)./2)./sqrt(2*pi));
