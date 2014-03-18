@@ -26,27 +26,27 @@ Now it is possible to execute a method on the object `callOption` to generate th
 ```matlab
 callOption.showPrice();
 ```
-![Alt text](/price.png "Price graph")
+![Alt text](/sample/price.png "Price graph")
 
 Similarly, we can execute methods to display the graph of the greeks:
 
 ```matlab
 callOption.showDelta();
 ```
-![Alt text](/delta.png "Delta graph")
+![Alt text](/sample/delta.png "Delta graph")
 ```matlab
 callOption.showGamma();
 ```
-![Alt text](/gamma.png "Gamma graph")
+![Alt text](/sample/gamma.png "Gamma graph")
 ```matlab
 callOption.showVega();
 ```
-![Alt text](/vega.png "Vega graph")
+![Alt text](/sample/vega.png "Vega graph")
 ```matlab
 callOption.showTheta();
 ```
-![Alt text](/theta.png "Theta graph")
+![Alt text](/sample/theta.png "Theta graph")
 ```matlab
 callOption.showRho();
 ```
-![Alt text](/rho.png "Rho graph")
+![Alt text](/sample/rho.png "Rho graph")
