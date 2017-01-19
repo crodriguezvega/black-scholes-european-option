@@ -1,7 +1,7 @@
 European option price and greeks using Matlab
 =============================================
 
-Matlab class that lets you easily display the price and greeks graphs for an European call or put option under the Black-Scholes model.
+Matlab class that lets you easily display the price and greeks graphs for an European call or put option under the [Black-Scholes model](http://en.wikipedia.org/wiki/Black–Scholes_model, "Wikipedia entry for Black-Scholes model").
 
 Usage
 =====
